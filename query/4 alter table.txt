@@ -1,0 +1,20 @@
+#syntax:
+ALTER TABLE table_name
+ADD column_name datatype;
+
+#Example
+ALTER TABLE Customers
+ADD Email varchar(255);
+
+
+#some database systems don't allow deleting a column
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+#RENAME COLUMN
+ALTER TABLE table_name
+RENAME COLUMN old_name to new_name;
+
+#MODIFY DATATYPE
+ALTER TABLE table_name
+MODIFY column_name datatype;

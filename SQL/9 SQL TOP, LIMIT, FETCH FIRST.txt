@@ -1,0 +1,14 @@
+SELECT TOP 3 * FROM Customers;
+
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+LIMIT number;
+
+
+SELECT * FROM Customers
+LIMIT 3;
+
+SELECT * FROM Customers
+ORDER BY CustomerName DESC
+LIMIT 3;

@@ -1,0 +1,13 @@
+-- syntax
+DELETE FROM table_name WHERE condition;
+
+-- Examples
+DELETE FROM Customers WHERE CustomerName='G&G';
+
+
+-- Delete All Records
+DELETE FROM table_name;
+
+-- Delete a Table
+DROP TABLE Customers;
+

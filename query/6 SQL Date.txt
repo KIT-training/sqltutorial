@@ -1,0 +1,37 @@
+-- SQL Date Functions Examples
+
+-- Get the current date
+SELECT GETDATE() AS CurrentDate;
+
+-- Extract year, month, and day from a date
+SELECT 
+    YEAR(GETDATE()) AS CurrentYear,
+    MONTH(GETDATE()) AS CurrentMonth,
+    DAY(GETDATE()) AS CurrentDay;
+
+-- Add days to the current date
+SELECT DATEADD(DAY, 7, GETDATE()) AS DateAfter7Days;
+
+-- Subtract days from the current date
+SELECT DATEADD(DAY, -7, GETDATE()) AS DateBefore7Days;
+
+-- Calculate the difference between two dates
+SELECT DATEDIFF(DAY, '2023-01-01', GETDATE()) AS DaysDifference;
+
+-- Format a date
+SELECT FORMAT(GETDATE(), 'yyyy-MM-dd') AS FormattedDate;
+
+
+
+-- MySQL comes with the following data types for storing a date or a date/time value in the database:
+
+DATE - format YYYY-MM-DD
+DATETIME - format: YYYY-MM-DD HH:MI:SS
+TIMESTAMP - format: YYYY-MM-DD HH:MI:SS
+YEAR - format YYYY or YY
+-- SQL Server comes with the following data types for storing a date or a date/time value in the database:
+
+DATE - format YYYY-MM-DD
+DATETIME - format: YYYY-MM-DD HH:MI:SS
+SMALLDATETIME - format: YYYY-MM-DD HH:MI:SS
+TIMESTAMP - format: a unique number

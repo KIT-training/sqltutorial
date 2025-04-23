@@ -1,0 +1,13 @@
+-- syntax
+SELECT column_names
+FROM table_name
+WHERE column_name IS NULL;
+
+SELECT column_names
+FROM table_name
+WHERE column_name IS NOT NULL;
+
+-- Examples
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NULL;

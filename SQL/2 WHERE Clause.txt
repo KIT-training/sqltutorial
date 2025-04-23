@@ -1,0 +1,18 @@
+#syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+#Examples
+SELECT * FROM Customers
+WHERE CustomerID=1;
+
+
+SELECT * FROM Customers
+WHERE CustomerID > 80;
+
+
+#where clause
+BETWEEN, LIKE, IN
+
+

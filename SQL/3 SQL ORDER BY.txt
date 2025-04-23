@@ -1,0 +1,12 @@
+-- Syntax
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+
+-- Examples
+SELECT * FROM Products
+ORDER BY Price DESC;
+
+
+SELECT * FROM Customers
+ORDER BY Country, CustomerName;
