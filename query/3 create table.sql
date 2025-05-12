@@ -10,7 +10,7 @@ CREATE TABLE table_name (
 
 # Example
 CREATE TABLE Persons (
-    PersonID int,
+    ID int,
     LastName varchar(255),
     FirstName varchar(255),
     Address varchar(255),

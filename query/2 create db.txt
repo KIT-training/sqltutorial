@@ -1,3 +1,4 @@
+CREATE DATABASE  Nameof_database;
 CREATE DATABASE IF NOT EXISTS Nameof_database;
 
 SHOW DATABASES;
